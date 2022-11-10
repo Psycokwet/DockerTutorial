@@ -1,70 +1,82 @@
-# Getting Started with Create React App
+# Vite + React + TypeScript + Airbnb + Husky = 🔥
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern minimal Vite + React + TypeScript template with pre-configured ESLint (with Airbnb JS/React rules), Prettier and Git hooks powered by Husky out of the box 📦
 
-## Available Scripts
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
+![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 
-In the project directory, you can run:
+![Screenshot](https://i.ibb.co/Trm88qJ/screenshot.png)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🦾 Up to date libraries version and their features
+- 🔎 Pre-configured and extensible ESLint configuration without wrong and unused rules designed for old React versions
+- 💅 Pre-configured and extensible Prettier configuration
+- 🔬 Git hooks for code formatting and linting pre-commit
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
 
-### `npm test`
+```bash
+npx degit alessandropisu/vite-react-ts-minimal-template my-app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd my-app
 
-### `npm run build`
+# Required if you want a repository and work with Git hooks
+git init
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+yarn install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+yarn dev
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Available commands
 
-### `npm run eject`
+Run in development mode
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  yarn dev
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Create production build
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+  yarn build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Run ESLint linting
 
-## Learn More
+```bash
+  yarn lint
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Run Prettier formatting
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  yarn format
+```
 
-### Code Splitting
+Run TypeScript compiling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  yarn compile
+```
 
-### Analyzing the Bundle Size
+Serve production build locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+  yarn preview
+```
 
-### Making a Progressive Web App
+## Resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Vite](https://github.com/vitejs/vite)
+- [Airbnb JS Style Guide](https://github.com/airbnb/javascript)
+- [Airbnb React Style Guide](https://github.com/airbnb/javascript/tree/master/react)
+- [Husky](https://github.com/typicode/husky)
 
-### Advanced Configuration
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[MIT](https://choosealicense.com/licenses/mit/)
