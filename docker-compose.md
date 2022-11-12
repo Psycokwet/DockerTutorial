@@ -69,4 +69,4 @@ They must be already stopped beforehand.
 
 #### BONUS
 
-There is a few npm run `command` in packege.json, for your convenience.
+There is a few npm run `command` in package.json, for your convenience.
